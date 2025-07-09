@@ -1,0 +1,55 @@
+/* Estilo geral da página */
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+}
+
+/* Título centralizado */
+h1 {
+  text-align: center;
+}
+
+/* Campo de digitar tarefa */
+#caderno {
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Botão de adicionar */
+button {
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+/* Lista de tarefas */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+/* Cada item da lista */
+li {
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+}
+
+/* Botão de remover */
+.remove-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+}

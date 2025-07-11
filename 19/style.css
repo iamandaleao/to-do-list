@@ -5,12 +5,13 @@ h1 {
 #container {
   background-color: rgb(226, 215, 250);
   margin: 100px auto;
-  max-width: 380px;
+  max-width: 500px;
   min-height: 45vh;
   align-items: center;
   display: flex;
   flex-direction: column;
   border-radius: 30px;
+  
 }
 
 input {
@@ -24,11 +25,34 @@ input {
 
 li {
   display: flex;
-  width: 210px;
+  width: 300px;
   justify-content: space-between;
   border: solid 1px green;
   border-radius: 10px;
-  padding: 4px 8px;
+  padding: 4px;
   margin-bottom: 10px;
+  align-items: center;
+  overflow-wrap: anywhere;
+  gap: 10px;
+  box-sizing: border-box;
+}
+
+
+
+li button {
+  background-color: rgba(255, 0, 0, 0.729);
+  color: white;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  padding: 3px 6px;
+  white-space: nowrap; 
+}
+
+button {
+  cursor: pointer;
+  background-color: aqua;
+  border: solid 3px;
+  
 }
 

@@ -1,8 +1,8 @@
-function cursor () {
+function cursor() {
   const caderno = document.getElementById("caderno")
   const novoitem = caderno.value
   const iditem = crypto.randomUUID()
-  if (novoitem == "") {
+  if (novoitem.trim() === "") {
     return
   }
   const botaoremover = `<button onclick="remover('${iditem}')">Remover</button>`

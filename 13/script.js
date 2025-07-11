@@ -1,16 +1,17 @@
 function cursor () {
   const caderno = document.getElementById("caderno")
   const novoitem = caderno.value
-  if (novoitem == "") {
-    return
-  }
   const iditem = crypto.randomUUID()
-  const botaoremover = `<button onclick="remover('${iditem}')">Remover</button`
+
+  const botaoremover = `<button onclick="remover('${iditem}')">Remover</button>`
+
   const listadecompras = document.getElementById("listadecompras")
+
   listadecompras.innerHTML += `<li id="${iditem}">${novoitem} ${botaoremover}</li>`
-  caderno.value = ""
+
+  caderno.value=""
 }
 
 function remover(iditem) {
-  document.getElementById(iditem).remove()
+document.getElementById(iditem).remove()
 }

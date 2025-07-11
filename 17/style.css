@@ -1,7 +1,7 @@
 body {
-  font-family: Arial, sans-serif;
+  background-color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
   padding: 20px;
-  background-color: #10a4b8;
   text-align: center;
 }
 
@@ -11,16 +11,15 @@ input {
   width: 250px;
   max-width: 90%;
   margin-bottom: 10px;
-}
+} 
 
 button {
-  padding: 8px 12px;
+  padding: 8px 16px;
   font-size: 14px;
   margin-left: 5px;
   cursor: pointer;
 }
 
-/* estilo específico para o botão remover */
 .remover {
   background-color: red;
   color: white;
@@ -28,7 +27,6 @@ button {
   border-radius: 3px;
 }
 
-/* lista no centro com largura controlada */
 #listadecompras {
   list-style: none;
   padding: 0;
@@ -36,14 +34,14 @@ button {
   max-width: 400px;
 }
 
-/* cada item: cor, espaçamento e alinhamento entre texto e botão */
 #listadecompras li {
-  background-color: #e0e0e0;
+  background-color: beige;
   margin: 8px 0;
-  padding: 10px;
+  padding: 8px;
   border-radius: 5px;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }

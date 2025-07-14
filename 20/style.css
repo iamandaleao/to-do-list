@@ -14,9 +14,16 @@ padding: 45px;
 }
 
 button {
+background-color: yellow;
+border-radius: solid 4px;
+width: 80px;
+height: 26px;
 
 }
 
 ul {
+background-color: chocolate;
+width: 200px;
+
 
 }

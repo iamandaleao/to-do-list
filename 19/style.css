@@ -4,14 +4,12 @@ h1 {
 
 #container {
   background-color: rgb(226, 215, 250);
-  margin: 100px auto;
+  margin: auto;
   max-width: 500px;
   min-height: 45vh;
   align-items: center;
   display: flex;
-  flex-direction: column;
-  border-radius: 30px;
-  
+  flex-direction: column;  
 }
 
 input {
@@ -21,6 +19,10 @@ input {
   border-radius: 6px;
   height: 20px;
   font-size: 20px;
+}
+
+ul {
+  padding: 0;
 }
 
 li {

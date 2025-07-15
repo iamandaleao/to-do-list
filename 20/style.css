@@ -21,17 +21,19 @@ li button {
   white-space: nowrap;
   cursor: pointer;
 }
-
+ul {
+  padding: 0;
+}
 
 li {
   display: flex;
-  background-color: rgba(210, 186, 30, 0.698);
+  background-color: rgba(9, 105, 230, 0.224);
   width: 300px;
   justify-content: space-between;
   padding: 4px;
   margin-bottom: 10px;
-  box-sizing: border-box;
   align-items: center;
+  border-radius: 4px;
   overflow-wrap: anywhere;
 }
 

@@ -2,14 +2,14 @@ function cursor() {
 const caderno = document.getElementById("caderno")
 const novoitem = caderno.value
 const iditem = crypto.randomUUID()
-if (novoitem.trim ()=== "") {
+if (novoitem.trim () === "") {
   return
 }
 const botaoremover = `<button onclick="remover('${iditem}')">Remover</button>`
 
 const listadecompras = document.getElementById("listadecompras")
 
-listadecompras.innerHTML = `<li id="${iditem}">${novoitem} ${botaoremover}</li>`
+listadecompras.innerHTML += `<li id="${iditem}">${novoitem} ${botaoremover}</li>`
 caderno.value = ""
 }
 

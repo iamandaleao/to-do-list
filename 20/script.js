@@ -6,7 +6,9 @@ function cursor() {
     return
   }
   const botaoremover = `<button onclick="remover('${iditem}')">Remover</button>`
+
   const listadecompras = document.getElementById("listadecompras")
+
   listadecompras.innerHTML += `<li id="${iditem}">${novoitem} ${botaoremover}</li>`
   caderno.value = ""
 }
